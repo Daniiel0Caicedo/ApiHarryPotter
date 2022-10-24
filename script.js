@@ -35,7 +35,7 @@ function card(element) {
     imgC.setAttribute('src',element["image"]);
     nameC.textContent = element["name"];
     gender.textContent = element["gender"];
-    yearOfBirth.textContent = element["yearOfBirth"];
+    yearOfBirth.textContent =(2022 - element["yearOfBirth"]);
 
 
     
